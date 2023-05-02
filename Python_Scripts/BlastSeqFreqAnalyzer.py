@@ -16,8 +16,8 @@
 ####################################################
 
 # variable names
-btable_path = "/home/aaron/Escritorio/TFM/analisis_helitron/results_table_helitron.txt"
-output_name = "blast_results_table_v2.csv"
+btable_path = "" # Path to BLAST output
+output_name = "" # Output file name
 
 # Open the BLAST results file
 with open(btable_path) as f:
