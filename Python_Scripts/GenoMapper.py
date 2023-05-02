@@ -18,12 +18,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # variable names
-csv_path = "tabla_helitron.csv" # path to .csv file
-chr_id = "Chr_letter" # column name with the id of the chromosomes
-chr_length = "chr_length" # column name with chromosome length
-seq_id = "Query_Sequence" # column name with the id of the sequences
-seq_p = "Positions" # column name with the positions of sequences on crhomosomes
-png_name = "helitron_cromosomas_v3.png" # name of the png output
+csv_path = "" # path to .csv file
+chr_id = "" # column name with the id of the chromosomes
+chr_length = "" # column name with chromosome length
+seq_id = "" # column name with the id of the sequences
+seq_p = "" # column name with the positions of sequences on crhomosomes
+png_name = "" # name of the png output
 
 # Load the CSV file into a Pandas DataFrame
 data = pd.read_csv(csv_path)
